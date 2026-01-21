@@ -1,0 +1,118 @@
+/* BODY */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #FFE4E1; /* soft light pink */
+  margin: 0;
+}
+
+/* HEADER */
+.header {
+  background-color: #FFB6C1; 
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+  font-size: 28px;
+  font-weight: bold;
+  border-bottom: 3px solid #FFC0CB;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.menu {
+  text-align: center;
+  padding: 12px 0;
+  background-color: #FF69B4; 
+  border-radius: 15px;
+  margin: 10px auto;
+  width: 60%;
+}
+
+.menu a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background-color: #FFC0CB;
+  color: #FF1493;
+}
+
+.content {
+  background-color: #FFF0F5; 
+  width: 65%;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px #0000001a;
+}
+
+/* PROFILE IMAGE */
+.profile {
+  width: 150px;
+  border-radius: 15px; /* slightly round */
+  border: 3px solid #FF69B4; /* cute pink border */
+  margin-bottom: 15px;
+  transition: transform 0.3s;
+}
+
+.profile:hover {
+  transform: scale(1.05);
+}
+
+/* BIODATA BOX */
+.bio-box {
+  background-color: #FFD1DC; /* soft pink */
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+  margin: 15px auto;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* CONTACT LINK */
+.contact-link {
+  font-weight: bold;
+  color: #FF69B4;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contact-link:hover {
+  color: #FF1493;
+  text-decoration: underline;
+}
+
+/* TEXTAREA */
+textarea {
+  width: 80%;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #FFB6C1;
+  resize: none;
+  font-family: inherit;
+}
+
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+img { 
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
